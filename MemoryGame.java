@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class MemoryGame extends JFrame {
-    private int gridSize = 4; // 4x4 grid, 8 pairs
+    private int gridSize = 4; 
     private CardButton firstSelected = null, secondSelected = null;
     private int matchedPairs = 0;
     private JLabel statusLabel = new JLabel("Find all pairs!", JLabel.CENTER);
@@ -18,7 +18,7 @@ public class MemoryGame extends JFrame {
         JPanel boardPanel = new JPanel(new GridLayout(gridSize, gridSize, 10, 10));
         boardPanel.setBackground(new Color(230,240,255));
         ArrayList<Color> colors = new ArrayList<>();
-        // 8 Pairs of distinct colors
+      
         Color[] colorList = {
             Color.RED, Color.BLUE, Color.GREEN, Color.ORANGE,
             Color.MAGENTA, Color.CYAN, Color.YELLOW, Color.PINK
@@ -85,7 +85,7 @@ public class MemoryGame extends JFrame {
     }
 
     class CardButton extends JButton {
-        private Color color; // this card's color
+        private Color color;
         private boolean faceUp = false;
         private boolean matched = false;
 

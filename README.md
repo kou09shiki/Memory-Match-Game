@@ -1,4 +1,4 @@
-# Colorful Memory Match Game
+# Memory Match Game
 
 A fun and simple memory matching game made with Java Swing. Flip cards, match pairs of colors, and see if you can find all 8 pairs to win!
 

@@ -2,13 +2,20 @@
 
 A fun and simple memory matching game made with Java Swing. Flip cards, match pairs of colors, and see if you can find all 8 pairs to win!
 
+## Tech Stack
+
+- **Programming Language:** Java
+- **UI Framework:** Java Swing (javax.swing, java.awt)
+- **Utilities:** java.util.ArrayList, java.util.Collections, javax.swing.Timer
+
 ## Features
 
 - 4x4 grid with 8 color pairs
 - Easy and fun to play
-- Simple user interface
+- Simple, colorful user interface
 - Instant match/no-match feedback
 - Score tracking with pair counter
+- Win message with emoji when all pairs are found
 
 ## How to Play
 
@@ -23,4 +30,19 @@ A fun and simple memory matching game made with Java Swing. Flip cards, match pa
 - Java JDK 8 or higher  
 
 **Steps:**  
-1. Clone this repository:
+
+1. **Save your code to a file:**  
+   Save the provided code as `MemoryGame.java`.
+
+2. **Compile the code:**  
+   Open your terminal/command prompt, navigate to the folder containing `MemoryGame.java`, and run:
+
+3. **Run the game:**  
+
+4. **Enjoy!**  
+- Play by clicking cards to flip and match pairs.
+- Try to match all pairs as fast as you can!
+
+## License
+
+MIT License
